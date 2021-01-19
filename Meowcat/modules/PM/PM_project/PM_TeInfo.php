@@ -1,19 +1,6 @@
 <?php
 
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "root";
-
-$conn = mysqli_connect($dbhost, $dbuser, $dbpass);
-
-if(!$conn)
-{
-  echo "Connection Failed";
-}
-
-mysqli_select_db($conn,"cattool");
-
-mysqli_query($conn,"set names utf8");
+require_once ('../../config.php');
 
 session_start();
 
