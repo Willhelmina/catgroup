@@ -33,7 +33,7 @@ session_start();
 			#content-0
 			{
 				position:absolute;
-				top:-680px;
+				top:-530px;
 				left:300px;
 				
 			}
